@@ -1,0 +1,45 @@
+.form{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.form * {
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+.form button{
+    background-color: #419773;
+    color: #fff;
+}
+.form button[type='reset']{
+    background-color: #bb6969;
+}
+.form button:active{
+    transform: scale(.95);
+}
+.sort{
+    color: #fff;
+    display: flex;
+    gap: 30px;
+    outline: none;
+    border: none;
+    height: 45px;
+}
+.sort label{
+    align-self: center;
+}
+.sort select{
+    width: 120px;
+    padding: 5px;
+}
+.sort:focus{
+    outline: none;
+    border: none;
+}
+.sort:active{
+    outline: none;
+    border: none;
+}

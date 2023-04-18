@@ -1,0 +1,22 @@
+.form{
+    margin: 0 auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #334455;
+    padding: 35px;
+    border-radius: 15px;
+}
+.form *{
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.form button{
+    background: #419773;
+    color: white;
+}
+.form button:active{
+    transform: scale(0.9);
+}

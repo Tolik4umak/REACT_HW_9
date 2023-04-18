@@ -1,0 +1,14 @@
+.container{
+    width: 100%;
+    background: #334455;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container a{
+    color: white;
+    padding: 20px;
+}
+.container .active {
+    color: #419773;
+}

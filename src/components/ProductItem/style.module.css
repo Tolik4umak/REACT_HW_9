@@ -1,0 +1,35 @@
+.product{
+    background: #334455;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 100px;
+    align-items: center;
+    padding: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    color: #fff;
+}
+.product a{
+    background-color: #698abb;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.price_block{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 50px;
+}
+.price{
+    display: flex;
+    gap: 20px;
+}
+.cur_price{
+    color: #ccc;
+    text-decoration: line-through;
+}
+.discount{
+    color: rgb(235, 151, 151);
+}
