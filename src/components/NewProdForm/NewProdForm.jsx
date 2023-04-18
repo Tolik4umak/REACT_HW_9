@@ -20,11 +20,13 @@ export default function NewProdForm() {
       id,
       title,
       price,
-      discount
+      discount,
+      show: true,
     }:{
       id,
       title,
-      price
+      price,
+      show: true
     }
 
     dispatch(productsAddAction(product))

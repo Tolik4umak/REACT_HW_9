@@ -76,6 +76,7 @@ export const productReducer = (state = products, {type, payload}) => {
     }
 
     if(type === PRODUCTS_ADD){
+        console.log(payload);
         return [...state, payload]
     }
     
